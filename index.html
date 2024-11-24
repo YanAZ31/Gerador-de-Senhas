@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
-    <title>Gerador de senhas</title>
+    <title>StrongLock | Gere senhas Seguras com facilidade</title>
 </head>
 <body>
  
@@ -14,13 +15,15 @@
         <div class="container-input">
             <div class="quantity">
                 <label for="passwordLenght" >Tamanho da Senha</label>
-                <input type="number" id="passwordLenght" value="1" min="1" max="19">
+                <input type="number" id="passwordLenght" value="1" min="1" max="19" >
             </div>    
       
             <div class="display">
                 
                     <input type="text" id="password" placeholder="Senha" disabled>
-                    <img src="images/copy.png" alt="" srcset="" onclick="copyPassword()">
+                   
+                    <img src="images/copy.png" alt="" srcset="" onclick="copyPassword()" >
+                   
             
             </div>
         </div>
