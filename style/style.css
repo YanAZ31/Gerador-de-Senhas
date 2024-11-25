@@ -36,7 +36,7 @@ body{
 
 .container h1{
     font-weight: 500;
-    font-size: 45px;
+    font-size: 2.813rem;
 }
 
 .container h1 span{
@@ -158,5 +158,81 @@ input[type="number"] {
 
 }
 
-.show{
-}
+/*  Responsivo */
+@media (max-width: 767px) {
+    .display{
+        /* max-width: 100%; */
+    }
+
+    .container-input{
+        display: flex;
+        gap: 3px;
+        width: 95%;
+        margin: auto;
+
+        
+    }
+
+    .container{
+        margin: auto;
+    }
+    
+    .container h1{
+        font-weight: 500;
+        font-size: 2.188rem;
+    }
+
+    .quantity label{
+        display: none;
+    }
+    .check label{
+        font-size: 0.625rem;
+    }
+
+    .show::after{
+        content: "Copiado!";
+        background-color: #019f55;
+        padding: 5px;
+        color: #fff;
+        border-radius: 8px;
+        margin-left:5px ;
+        font-size: 0.625rem;
+        
+        
+    
+    }
+
+    .container button{
+        border: 0;
+        outline: 0;
+        background: #019f55;
+        color:#fff;
+        font-size: 1rem;
+        font-size: 300;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 18px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 0 auto;
+    
+    }
+
+    input[type="number"] {
+        /* height: 32px; */
+        /* border-radius: 4px; */
+        /* border: 1px solid #d8d8d8; */
+        position: relative;
+        text-align: center;
+        /* font-size: 20px; */
+        /* width: 80px; */
+        /* outline: none; */
+        background-image: url(../images/upDown.png);
+        background-position: 50px;
+        background-size: 30%;
+        background-repeat: no-repeat;
+        /* caret-color: transparent; */
+        
+      }
+  }
