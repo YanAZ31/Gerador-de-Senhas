@@ -6,7 +6,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/YanAZ31/Gerador-de-Senhas?style=for-the-badge "Bitbucket open issues")
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/YanAZ31/Gerador-de-Senhas?style=for-the-badge "Bitbucket open pull requests")
 
- <img src="smartlock.png" alt="Tela inicial SmartLock" />
+   ![smartlock hosted at ImgBB — ImgBB](https://iili.io/2ceVZfn.png)
 
 > Este projeto é um **gerador de senhas** simples e eficaz, criado para ajudar iniciantes na programação a entender como gerar senhas seguras e aleatórias de forma prática. A ferramenta permite criar senhas com diferentes comprimentos e níveis de complexidade, combinando letras maiúsculas, minúsculas, números e caracteres especiais.
 
