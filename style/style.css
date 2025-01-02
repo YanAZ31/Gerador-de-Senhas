@@ -236,3 +236,29 @@ input[type="number"] {
         
       }
   }
+
+
+/* Correção bug smartphones */
+  @media (max-width: 375px) {
+    .display{
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        background: #fff;
+        color: #333;
+        display: flex;
+        align-items: center;
+        justify-content:end;
+        padding: 23px 0px;
+        border-radius: 5px ;
+    }
+
+    .container-input{
+        display: flex;
+        gap: 0px;
+        align-items: flex-end;
+     
+    }
+
+
+}
